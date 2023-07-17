@@ -5,6 +5,13 @@ margin: 0px;
 }
 header{
     margin: 0px 100px;
+    margin-top: 30px;
+}
+.header-title{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 1.5rem;
+
 }
 nav{
     display: flex;
@@ -17,4 +24,122 @@ nav > ul {
 nav ul a {
     text-decoration: none;  
     margin-right: 30px;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+}
+.banner-text{
+    color: #3A3A3A;
+}
+.banner-title{
+    font-size: 2.25rem;
+    font-weight: 700;
+    
+}
+.detail{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn{
+
+}
+.banner-img{
+  width: 50%;  
+ padding-top: 50px;
+ padding-left: 120px;
+
+
+
+}
+.btn{
+    border-radius: 41px;
+    background: #E02C6D;  
+    color: #FFF;
+border: none;
+font-size: 0.8rem;
+font-weight: 700;
+padding: 2px 12px;
+justify-content: center;
+display: flex;
+text-align: center;
+gap: 10px;
+margin-top: 10px;
+
+}
+.btn-item{
+   align-self: center; 
+}
+.btn-icon{
+    
+    margin-top: 5px;
+}
+    
+    
+
+.main-img{
+    background-image: url(./images/Circle\ design.svg);
+   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 57%;
+
+
+}
+.icon{
+    width: 75%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+   
+    margin-bottom: 120px;
+    align-items: center;
+    border-top: 1px solid rgb(189, 186, 186);
+    border-bottom: 1px solid  rgb(189, 186, 186);
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin-top: 70px;
+  
+}
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    nav > ul {
+        flex-direction: column;
+}
+header{
+    margin: 5px ;
+    margin-left: 15px;
+    text-align: center;
+
+}
+.banner{
+    flex-direction: column;
+}
+.banner-img{
+    padding-right: 90px;
+    
+
+background-position: center;
+
+
+}
+.icon{
+    grid-template-columns: repeat(3, 1fr);
+   row-gap: 30px;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.btn{
+    margin-left: 150px;
+}
+
 }

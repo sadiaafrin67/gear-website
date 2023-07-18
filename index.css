@@ -113,14 +113,16 @@ margin-top: 10px;
     nav > ul {
         flex-direction: column;
 }
-header{
+header {
     margin: 5px ;
     margin-left: 15px;
     text-align: center;
+    overflow: hidden;
 
 }
 .banner{
     flex-direction: column;
+    overflow: hidden;
 }
 .banner-img{
     padding-right: 90px;
@@ -130,16 +132,41 @@ background-position: center;
 
 
 }
-.icon{
-    grid-template-columns: repeat(3, 1fr);
-   row-gap: 30px;
-   justify-content: center;
-   align-items: center;
+
+
    
-}
+
 
 .btn{
     margin-left: 150px;
-}
+    border-radius: 41px;
+    margin-bottom: 30px;
+    
 
+font-size: 0.6rem;
+font-weight: 700;
+padding: 2px 5px;
+
+
+
+gap: 6px;
+
+}
+.banner-title{
+    font-size: 1.8.rem;
+    font-weight: 700;
+    
+}
+.detail{
+    font-size: 0.5rem;
+
+}
+.icon{
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    row-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+}
 }
